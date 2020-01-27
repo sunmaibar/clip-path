@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="title">Scroll To See Magic Again...</h2>
+    <section></section>
+    <div class="container">
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, dolores!</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vel eligendi officiis, assumenda
+            impedit deserunt sequi iure eaque fugit eum dolorum, quas at ipsa doloribus provident temporibus autem
+            nesciunt adipisci illum culpa voluptatem! Adipisci dolorem, quibusdam accusamus sequi corrupti impedit.
+            Saepe iusto est, suscipit cupiditate impedit obcaecati sequi illum earum. ipsum dolor sit amet, consectetur
+            adipisicing elit. Non vel maiores cumque tempora explicabo fugiat
+            vero quam tenetur, velit, repellat molestiae porro delectus iusto blanditiis accusantium perspiciatis illum
+            optio laudantium voluptas nisi mollitia! Alias, velit. Repellendus officiis perferendis enim quisquam.
+            Dolores at exercitationem pariatur nostrum laborum. Excepturi, debitis. Veritatis, eos! ipsum dolor sit amet
+            consectetur adipisicing elit. Rerum possimus, labore numquam harum dolorem
+            laboriosam temporibus voluptate, tempora tempore consequatur optio repellat quidem! Accusamus voluptatum
+            dolore suscipit, nihil delectus veritatis aliquam, quibusdam doloremque minima amet harum voluptatem? Autem
+            obcaecati sit magni sapiente quo ipsa rerum fuga atque ipsam. Eligendi, vero!</p>
+
+    </div>
+
+    <script type="text/javascript">
+        var section = document.querySelector('section')
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+            section.style.clipPath = "circle(" + value + "px at center)";
+        })
+    </script>
+
+</body>
+
+</html>
